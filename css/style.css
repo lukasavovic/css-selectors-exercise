@@ -3,6 +3,35 @@
 body {
 	background-color: black;
 }
+li:nth-child(even) {
+    color: green;
+
+}
+
+
+li:nth-child(3){
+	background: lightblue;
+}
+
+li:first-child{
+	border-top: 1px solid green;
+
+}
+
+li:last-child{
+	border-bottom: 5px dotted blue;
+}
+
+li:nth-child(5) a{
+	color: red; 
+}
+li:nth-child(3) a{
+	color: red;
+}
+
+li:first-child a:hover{
+	color: gray;
+}
+
 
 // Don't delete the body styling, as some of the selectors might not work well
-
