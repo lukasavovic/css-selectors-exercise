@@ -22,14 +22,12 @@ li:last-child{
 	border-bottom: 5px dotted blue;
 }
 
-li:nth-child(5) a{
+li:nth-child(5) a , li:nth-child(3) a{
 	color: red; 
 }
-li:nth-child(3) a{
-	color: red;
-}
 
-li:first-child a:hover{
+
+li:nth-child(5) a:hover{
 	color: gray;
 }
 
